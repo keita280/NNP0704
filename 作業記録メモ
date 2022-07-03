@@ -1,0 +1,53 @@
+
+
+■後から修正が必要なこと
+
+・矢印調整
+
+・aタグのhref属性内を埋めていく
+
+・noindexを削除してから納品すること！！！！！！
+
+・ボタンのhoverアニメーションが、マウスアウト時にパッと切り替わっているのでもっと柔らかく
+
+■わからなかったこと
+・gitと連携した時に、vscodeが即時反映されない
+
+
+6/21（火）
+・changeのスタイリングから
+
+
+6/22(水)
+.radio-input{
+  display: none;
+  & + & {
+    margin-top: 10px;
+  }
+}
+のスタイリングから
+
+https://web.runland.co.jp/blog_cate2/post-2650
+
+2022/06/24
+ヘッダーのコーディング
+→背景色白パターン作るか
+→ワードプレス的に問題ないか確認
+
+7/4(月)
+
+
+■報告事項
+・facebookが正式なページではなくて、単なるグループであったため、facebookのプラグインを利用したリンクは不可。画像を配置し、グループのページにリンクする仕様にしている。
+公式）
+https://developers.facebook.com/docs/plugins/page-plugin/
+
+方法）
+https://www.onecruise.co.jp/degiodegiko/how-to-embed-facebook-pages/
+
+
+■参考情報
+hoverアニメーション
+https://hakenblog.com/css-hover-underline-animation/
+
+

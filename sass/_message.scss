@@ -1,0 +1,36 @@
+/* ------------------ */
+/* message_container */
+/* ------------------ */
+
+.message_container {
+  margin-bottom: 110px;
+  margin-top: 110px;
+
+  @include mq('sp'){
+    padding: 0 20px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+  }
+}
+
+.message_text {
+  font-size: 18px;
+  line-height: 2.22;
+  margin-bottom: 80px;
+}
+
+.signature {
+  text-align: right;
+  font-weight: 700;
+}
+
+.signature_head {
+  font-size: 16px;
+}
+
+.signature_body {
+  font-size: 28px;
+  margin-top: 6px;
+}
+
+
