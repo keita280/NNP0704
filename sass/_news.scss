@@ -1,0 +1,138 @@
+/* ------------------ */
+/* news */
+/* ------------------ */
+
+.news-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 980px) {
+  .news-list {
+    /* gap: 7px; */
+  }
+}
+
+.news-item {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  width: 313px;
+  height: 75px;
+  left: 230px;
+  top: 470px;
+  padding: 24px 21px 11.5px;
+  background: #f1f8ec;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.news-item_text {
+  color: #fff;
+}
+
+@media (max-width: 980px) {
+  .news-item {
+    width: 107px;
+    height: 51px;
+    left: 228px;
+    top: 0px;
+    font-size: 14px;
+  }
+}
+
+/* ------------------ */
+/* ※WordPress化時に削除 */
+/* ------------------ */
+.news-item:not(:nth-of-type(1)) {
+  background: #57b07b;
+  color: #fff;
+}
+
+.traning-info-list {
+  width: 979px;
+  height: 2330px;
+  left: 230px;
+  top: 545px;
+  background: #f1f8ec;
+  border-radius: 0px 0px 16px 16px;
+  padding: 58px 93px;
+}
+
+@media (max-width: 980px) {
+  .traning-info-list {
+    padding: 30px 27px 30px;
+    gap: 10px;
+    width: 362px;
+    height: 1100px;
+    margin-left: 27px;
+  }
+}
+
+.traning-info-item {
+  position: relative;
+  width: 794px;
+  height: 10px;
+  margin-bottom: 34px;
+}
+
+@media (max-width: 980px) {
+  .traning-info-item {
+    margin-bottom: 28px;
+  }
+}
+
+.traning-info-item::before {
+  content: '';
+  position: absolute;
+  border-bottom: 10px solid #e9e9e9;
+  width: 794px;
+  height: 10px;
+}
+
+.traning-info-item {
+  & + & {
+  border-top: 1px solid ;  
+  }
+}
+
+
+.traning-date {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+  color: #57b07b;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 980px) {
+  .traning-date {
+    font-size: 14px;
+  }
+}
+
+.traning-date + a {
+  font-size: 20px;
+  line-height: 30px;
+  color: #237ee9;
+  text-decoration: underline;
+}
+
+@media (max-width: 980px) {
+  .traning-date + a {
+    font-size: 18px;
+  }
+}
+
+.traning-content {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 14px;
+}
+
+@media (max-width: 980px) {
+  .traning-content {
+    font-size: 14px;
+  }
+}

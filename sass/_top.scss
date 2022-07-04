@@ -573,6 +573,22 @@ h1 {
     }
   }
 
+  _::-webkit-full-page-media, _:future, :root   .header_top_right_list {
+    position: relative;
+    &:not(:first-child){
+      :before {
+        position: absolute;
+        top: 50%;
+        content: "";
+        width: 1px;
+        height: 10px;
+        display: block;
+        transform: translate(-50%, -50%);
+        background-color: black;/*線の色*/
+        }
+      }
+    }
+
   .header_top_right_link {
       margin-left: 24px;
       margin-right: 24px;
@@ -1192,11 +1208,13 @@ animation :infinity-scroll-left 300s infinite linear both;
   }
 }
 .top-joinus_frame{
+  display: block;
   overflow: hidden;
   position: relative;
   width: 100%;
   cursor: pointer;
   border-radius: 36px;
+  z-index: -1;
   @include mq('md'){
     & + & {
       margin-left: 5%;
@@ -1210,14 +1228,15 @@ animation :infinity-scroll-left 300s infinite linear both;
     aspect-ratio: 1/0.7284;
     position: relative;
     z-index: 0;
-    transition: .3s ease-in-out;
+    transition: .3s ease;
+    img {
+      transition: ease .2s;
+    }
     &:hover {
       img {
         transform: scale(1.1);
-        transition: ease .2s;
       }
         .arrow-right-white.icon {
-          transition: ease .2s;
           background-color: #FFFFFF;
           &:before {
             border-top: solid 1px #918483;
@@ -1247,7 +1266,9 @@ animation :infinity-scroll-left 300s infinite linear both;
   aspect-ratio: 1/0.7284;
   position: relative;
   z-index: 0;
-  // transition: .3s ease-in-out;
+  img {
+    transition: ease .2s;
+  }
   &:hover {
     img {
       transition:ease .2s;
@@ -1526,17 +1547,16 @@ animation :infinity-scroll-left 300s infinite linear both;
   height: 100%;
   text-align: center;
   padding: 142px 0 145px 0 ;
+  transition: ease .2s;
   &:hover {
     background: rgba(60, 147, 95, 0.6);
-    transition: ease .2s;
-      .arrow-right-white.icon {
+      .arrow-right-white_entry.icon_entry {
         background-color: #FFFFFF;
         transition: ease .2s;
         &:before {
           border-top: solid 1px $font-color-main;
           border-right: solid 1px $font-color-main;
         }
-        
         &:after {
           background-color: $font-color-main;
         }
