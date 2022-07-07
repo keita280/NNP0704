@@ -1259,13 +1259,13 @@ _:-ms-lang(x)::-ms-backdrop,
   aspect-ratio: 1/0.7284;
   position: relative;
   z-index: 0;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
 }
 
 .top-joinus_bg_l img {
-  -webkit-transition: ease .2s;
-  transition: ease .2s;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
 }
 
 .top-joinus_bg_l:hover img {
@@ -1303,20 +1303,20 @@ _:-ms-lang(x)::-ms-backdrop,
 }
 
 .top-joinus_bg_r img {
-  -webkit-transition: ease .2s;
-  transition: ease .2s;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
 }
 
 .top-joinus_bg_r:hover img {
-  -webkit-transition: ease .2s;
-  transition: ease .2s;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
 .top-joinus_bg_r:hover .arrow-right-white.icon {
-  -webkit-transition: ease .2s;
-  transition: ease .2s;
+  -webkit-transition: ease .4s;
+  transition: ease .4s;
   background-color: #FFFFFF;
 }
 
