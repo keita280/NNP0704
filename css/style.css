@@ -641,7 +641,7 @@ _::-webkit-full-page-media:not(:first-child) :before, _:future:not(:first-child)
 }
 
 .btn-green {
-  background-color: #57B07B;
+  background-color: #60C287;
   border: 1px solid currentColor;
   color: #fff;
   padding: 10px 20px;
@@ -1378,9 +1378,6 @@ _:-ms-lang(x)::-ms-backdrop,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 @media (max-width: 980px) {
@@ -1395,6 +1392,7 @@ _:-ms-lang(x)::-ms-backdrop,
       -ms-flex: 0 1 35.7959%;
           flex: 0 1 35.7959%;
   margin-right: 5.816%;
+  height: 255px;
 }
 
 .top-facebook_texts_ttl {
@@ -1474,6 +1472,13 @@ _:-ms-lang(x)::-ms-backdrop,
     height: 100%;
     margin-top: 36px;
   }
+}
+
+.fb_iframe {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 255px;
 }
 
 .top-link {

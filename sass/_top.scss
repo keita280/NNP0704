@@ -684,7 +684,7 @@ h1 {
     }
 
     .btn-green {
-      background-color: $font-color-main;
+      background-color: #60C287;
       border: 1px solid currentColor;
       color: #fff;
       padding: 10px 20px;
@@ -1349,7 +1349,8 @@ animation :infinity-scroll-left 300s infinite linear both;
 .top-facebook_container {
   padding: 110px 0; 
   display: flex;
-  align-items: center;
+  @include mq('md'){
+  }
   @include mq('sp'){
     padding: 70px 20px;
     display: block;
@@ -1359,7 +1360,7 @@ animation :infinity-scroll-left 300s infinite linear both;
 .top-facebook_texts {
   flex: 0 1 35.7959%;
   margin-right: 5.816%;
-
+  height: 255px;
 }
 
 
@@ -1427,8 +1428,13 @@ animation :infinity-scroll-left 300s infinite linear both;
   }
 }
 
-.fb_iframe {
+.fb-wrapper {
+  
+}
 
+.fb_iframe {
+  align-items: center;
+  height: 255px;
 }
 
 //＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠
