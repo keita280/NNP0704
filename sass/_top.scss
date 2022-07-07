@@ -1428,11 +1428,10 @@ animation :infinity-scroll-left 300s infinite linear both;
   }
 }
 
-.fb-wrapper {
-  
-}
+
 
 .fb_iframe {
+  display: block;
   align-items: center;
   height: 255px;
 }
