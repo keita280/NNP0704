@@ -666,7 +666,7 @@ h1 {
     &:not(:first-child){
       :before {
         position: absolute;
-        left: -14px;
+        left: -30px;
         top: 50%;
         content: "";
         width: 1px;
@@ -825,7 +825,7 @@ h1 {
   position: relative;
   padding-bottom: 154.5px;
   @include mq('sp'){
-    padding-top: 38px;
+    padding-top: 110px;
     margin-top: -20px;
   }
 }
@@ -957,7 +957,7 @@ animation :infinity-scroll-left 300s infinite linear both;
   padding: 110px 15.972%;
   position: relative;
   @include mq('sp'){
-    padding: 150px 20px 70px 20px;
+    padding: 137px 20px 70px 20px;
   }
   &::before {
     position: absolute;
@@ -1719,7 +1719,7 @@ animation :infinity-scroll-left 300s infinite linear both;
   padding: 18px 0;
   color: $font-color-white;
   @include mq('sp'){
-    padding: 30px 59.7px 12px 59.7px;
+    padding: 30px 40.7px 12px 40.7px;
     text-align: center;
   }
 }
@@ -1738,6 +1738,7 @@ animation :infinity-scroll-left 300s infinite linear both;
   position: relative;
 
   @include mq('sp'){
+    justify-content: center;
     margin-bottom: 28px;
   }
   :not(:first-child) {
@@ -1746,6 +1747,7 @@ animation :infinity-scroll-left 300s infinite linear both;
       top: 50%;
       content: "";
       width: 1px;
+      left: -14px;
       height: 10px;
       display: block;
       transform: translate(-50%, -50%);
