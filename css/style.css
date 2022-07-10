@@ -3586,3 +3586,58 @@ table {
   font-size: 14px;
   line-height: 2;
 }
+
+/* ------------------ */
+/* change_thanks_container */
+/* ------------------ */
+@media (min-width: 981px) {
+  .error_container {
+    padding: 75px 40px 100px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 980px) {
+  .error_container {
+    text-align: center;
+    padding: 75px 20px 75px 20px;
+  }
+}
+
+.error_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 54px;
+}
+
+@media (max-width: 980px) {
+  .error_title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+  }
+}
+
+.change_thanks_txt {
+  line-height: 2.222;
+  margin-bottom: 57.5px;
+}
+
+@media (max-width: 980px) {
+  .change_thanks_txt {
+    line-height: 1.875;
+  }
+}
+
+.body-white {
+  background-color: #fff;
+}
+
+@media (max-width: 980px) {
+  .for-top {
+    position: relative;
+    text-align: center;
+    left: -30px;
+  }
+}

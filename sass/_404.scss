@@ -1,0 +1,46 @@
+/* ------------------ */
+/* change_thanks_container */
+/* ------------------ */
+
+.error_container {
+  @include mq('md'){
+    padding: 75px 40px 100px;
+    text-align: center;
+  }
+  @include mq('sp'){
+    text-align: center;
+    padding: 75px 20px 75px 20px;
+  }
+}
+
+.error_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 54px;
+  @include mq('sp'){
+    text-align: center;
+    font-size: 30px;
+    margin-top: 43px;
+    margin-bottom: 40px;
+  }
+}
+
+.change_thanks_txt {
+  line-height: 2.222;
+  margin-bottom: 57.5px;
+  @include mq('sp'){
+    line-height: 1.875;
+  }
+}
+
+.body-white {
+  background-color: #fff;
+}
+
+.for-top {
+  @include mq('sp'){
+    position: relative;
+    text-align: center;
+    left: -30px;
+  }
+}
