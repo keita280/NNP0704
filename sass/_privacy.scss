@@ -1,0 +1,37 @@
+/* ------------------ */
+/* message_container */
+/* ------------------ */
+
+.privacy_container {
+  margin-bottom: 83px;
+  margin-top: 110px;
+
+  @include mq('sp'){
+    padding: 0 20px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+  }
+}
+
+.privacy_section {
+  & + & {
+    margin-top: 60px;
+  }
+}
+
+.privacy_section_ttl {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.privacy_section_txt {
+  font-size: 14px;
+  line-height: 2;
+}
+
+
+
+
+

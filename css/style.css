@@ -623,7 +623,7 @@ _::-webkit-full-page-media:not(:first-child) :before, _:future:not(:first-child)
 
 .header_bottom_list:not(:first-child) :before {
   position: absolute;
-  left: -14px;
+  left: -30px;
   top: 50%;
   content: "";
   width: 1px;
@@ -3553,4 +3553,36 @@ table {
   .traning-content {
     font-size: 14px;
   }
+}
+
+/* ------------------ */
+/* message_container */
+/* ------------------ */
+.privacy_container {
+  margin-bottom: 83px;
+  margin-top: 110px;
+}
+
+@media (max-width: 980px) {
+  .privacy_container {
+    padding: 0 20px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+  }
+}
+
+.privacy_section + .privacy_section {
+  margin-top: 60px;
+}
+
+.privacy_section_ttl {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.privacy_section_txt {
+  font-size: 14px;
+  line-height: 2;
 }
