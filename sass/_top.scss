@@ -1349,6 +1349,7 @@ animation :infinity-scroll-left 300s infinite linear both;
 .top-facebook_container {
   padding: 110px 0; 
   display: flex;
+  position: relative;
   @include mq('md'){
   }
   @include mq('sp'){
@@ -1417,24 +1418,34 @@ animation :infinity-scroll-left 300s infinite linear both;
   bottom: 0%;
 }
 
-.top-facebook_img {
-  width: 680px;
+// .top-facebook_img {
+//   width: 680px;
+//   height: 255px;
+//   object-fit: cover;
+//   @include mq('sp'){
+//     width: 100%;
+//     height: 100%;
+//     margin-top: 36px;
+//   }
+// }
+
+// ._li._li._li {
+//   padding-top: 67px;
+// }
+
+.fb_frame {
   height: 255px;
-  object-fit: cover;
-  @include mq('sp'){
-    width: 100%;
-    height: 100%;
-    margin-top: 36px;
-  }
-}
-
-
-
-.fb_iframe {
-  display: block;
   align-items: center;
-  height: 255px;
 }
+
+// .fbiframe {
+//   position: absolute;
+//   display: block;
+//   align-items: center;
+//   height: 255px;
+//   transform: translateY(-50%);
+//   padding-top: 125px;
+// }
 
 //＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠
 // link

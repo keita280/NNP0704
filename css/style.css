@@ -1378,6 +1378,7 @@ _:-ms-lang(x)::-ms-backdrop,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 @media (max-width: 980px) {
@@ -1459,27 +1460,11 @@ _:-ms-lang(x)::-ms-backdrop,
   bottom: 0%;
 }
 
-.top-facebook_img {
-  width: 680px;
+.fb_frame {
   height: 255px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-@media (max-width: 980px) {
-  .top-facebook_img {
-    width: 100%;
-    height: 100%;
-    margin-top: 36px;
-  }
-}
-
-.fb_iframe {
-  display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 255px;
 }
 
 .top-link {
