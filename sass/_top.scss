@@ -1433,10 +1433,11 @@ animation :infinity-scroll-left 300s infinite linear both;
 //   padding-top: 67px;
 // }
 
-// .fb_frame {
-//   height: 255px;
-//   align-items: center;
-// }
+.fb_frame {
+  height: 255px;
+  align-items: center;
+  padding: 100px 0;
+}
 
 .fbiframe {
   position: absolute;

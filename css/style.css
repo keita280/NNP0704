@@ -1460,6 +1460,14 @@ _:-ms-lang(x)::-ms-backdrop,
   bottom: 0%;
 }
 
+.fb_frame {
+  height: 255px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+}
+
 .fbiframe {
   position: absolute;
   display: block;
