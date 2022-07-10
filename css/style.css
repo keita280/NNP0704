@@ -1460,11 +1460,16 @@ _:-ms-lang(x)::-ms-backdrop,
   bottom: 0%;
 }
 
-.fb_frame {
-  height: 255px;
+.fbiframe {
+  position: absolute;
+  display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 255px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding-top: 125px;
 }
 
 .top-link {
