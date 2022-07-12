@@ -3641,3 +3641,220 @@ table {
     left: -30px;
   }
 }
+
+/* ------------------ */
+/* payment */
+/* ------------------ */
+.payment_container {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media (max-width: 980px) {
+  .payment_container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 130px;
+  }
+}
+
+.payment_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #57B07B;
+  margin-bottom: 56px;
+}
+
+@media (max-width: 980px) {
+  .payment_title {
+    font-size: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.payment_img {
+  width: 481px;
+  height: 123px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 68px;
+}
+
+.payment_txt {
+  font-size: 18px;
+  line-height: 2.22;
+}
+
+.payment_submit_text {
+  font-weight: 700;
+}
+
+.payment_submit_button {
+  margin-top: 20px;
+  display: inline-block;
+  width: 368px;
+  max-width: 100%;
+  padding: 17px 56px;
+  border: currentColor;
+  background-color: #57B07B;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.payment_submit_button:hover {
+  opacity: 0.8;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.payment_submit_button:hover .change-arrow-white {
+  background-color: #fff;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.payment_submit_button:hover .change-arrow-white::before {
+  border-top: solid 1px #57B07B;
+  border-right: solid 1px #57B07B;
+}
+
+.payment_submit_button:hover .change-arrow-white::after {
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  background-color: #57B07B;
+}
+
+.chenge_button-white {
+  font-size: 22px;
+  color: #FFFFFF;
+  font-weight: 700;
+  display: inline-block;
+  height: 29px;
+  width: 100%;
+}
+
+.change-arrow-white {
+  position: relative;
+  display: block;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  margin-left: auto;
+}
+
+.change-arrow-white:before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 16.5px;
+  width: 8px;
+  height: 8px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.change-arrow-white:after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: 15.5px;
+  margin-top: 20px;
+  width: 12px;
+  height: 1px;
+  background-color: #FFFFFF;
+}
+
+.payment_submit_button2 {
+  display: inline-block;
+  border: currentColor;
+  background-color: #57B07B;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.payment_submit_button2:hover {
+  opacity: 0.8;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.payment_submit_button2:hover .change-arrow-white {
+  background-color: #fff;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.payment_submit_button2:hover .change-arrow-white::before {
+  border-top: solid 1px #57B07B;
+  border-right: solid 1px #57B07B;
+}
+
+.payment_submit_button2:hover .change-arrow-white::after {
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  background-color: #57B07B;
+}
+
+.payment_submit_input {
+  font-size: 22px;
+  color: #FFFFFF;
+  font-weight: 700;
+  display: inline-block;
+  height: 29px;
+  width: 100%;
+  background-color: #57B07B;
+  border: none;
+  width: 368px;
+  max-width: 100%;
+  top: 50%;
+}
+
+.change-arrow-white2 {
+  position: relative;
+  display: block;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  margin-left: auto;
+}
+
+.change-arrow-white2:before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 16.5px;
+  width: 8px;
+  height: 8px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.change-arrow-white2:after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: 15.5px;
+  margin-top: 20px;
+  width: 12px;
+  height: 1px;
+  background-color: #FFFFFF;
+}

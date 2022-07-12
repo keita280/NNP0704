@@ -1,0 +1,215 @@
+/* ------------------ */
+/* payment */
+/* ------------------ */
+
+.payment_container {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  @include mq('sp'){
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 130px;
+  }
+}
+
+.payment_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: $font-color-main;
+  margin-bottom: 56px;
+  @include mq('sp'){
+    font-size: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+.payment_img {
+  width: 481px;
+  height: 123px;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 68px;
+  @include mq('sp'){
+
+  }
+}
+
+.payment_txt {
+  font-size: 18px;
+  line-height: 2.22;
+}
+
+
+
+.payment_submit_text {
+  font-weight: 700;
+}
+
+//送信ボタンここから
+.payment_submit_button {
+  margin-top: 20px;
+  display: inline-block;
+  width: 368px;
+  max-width: 100%;
+  padding: 17px 56px;
+  border: currentColor;
+  background-color: $font-color-main;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  &:hover {
+    opacity: 0.8;
+    transition: ease 0.5s;
+    .change-arrow-white {
+      background-color: #fff;
+      transition: ease 0.5s;
+      &::before {
+        border-top: solid 1px $font-color-main;
+        border-right: solid 1px $font-color-main;
+      }
+      &::after {
+        transition: ease 0.5s;
+        background-color: $font-color-main;
+      }
+    }
+  }
+}
+
+.chenge_button-white {
+  font-size: 22px;
+  color: $font-color-white;
+  font-weight: 700; 
+  display: inline-block;
+  height: 29px;
+  width: 100%;
+}
+
+
+.change-arrow-white {
+  position: relative;
+  display: block;
+  transform: translateY(-100%);
+  // right: -160%;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid $font-color-white;
+  margin-left: auto;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 16.5px;
+    width: 8px;
+    height: 8px;
+    border-top: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: 15.5px;
+    margin-top: 20px;
+    width: 12px;
+    height: 1px;
+    background-color: $font-color-white;
+  }
+}
+//送信ボタンここまで
+
+
+
+
+//送信ボタン作り替えここから
+.payment_submit_button2 {
+  display: inline-block;
+  // padding: 23.5px 20px;
+  border: currentColor;
+  background-color: $font-color-main;
+  border-radius: 10px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  &:hover {
+    opacity: 0.8;
+    transition: ease 0.5s;
+    .change-arrow-white {
+      background-color: #fff;
+      transition: ease 0.5s;
+      &::before {
+        border-top: solid 1px $font-color-main;
+        border-right: solid 1px $font-color-main;
+      }
+      &::after {
+        transition: ease 0.5s;
+        background-color: $font-color-main;
+      }
+    }
+  }
+}
+
+.chenge_button-white2 {
+}
+
+.payment_submit_input {
+  font-size: 22px;
+  color: $font-color-white;
+  font-weight: 700; 
+  display: inline-block;
+  height: 29px;
+  width: 100%;
+  background-color: $font-color-main;
+  border: none;
+  width: 368px;
+  max-width: 100%;
+  top: 50%;
+}
+
+
+.change-arrow-white2{
+  position: relative;
+  display: block;
+  transform: translateY(-100%);
+  // right: -160%;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid $font-color-white;
+  margin-left: auto;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 16.5px;
+    width: 8px;
+    height: 8px;
+    border-top: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: 15.5px;
+    margin-top: 20px;
+    width: 12px;
+    height: 1px;
+    background-color: $font-color-white;
+  }
+}
+//送信ボタンここまで
