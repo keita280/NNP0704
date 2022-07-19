@@ -1,0 +1,134 @@
+/* ------------------ */
+/* common schedule && traning */
+/* ------------------ */
+.bl_schedule_table,
+.bl_traning_table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.bl_schedule_th,
+.bl_traning_th,
+.bl_schedule_td,
+.bl_traning_td {
+  /* gray */
+  border: 1px solid #e9e9e9;
+}
+
+.bl_schedule_th,
+.bl_traning_th {
+  padding-top: 20px;
+  padding-bottom: 19px;
+}
+
+.bl_schedule_td,
+.bl_traning_td {
+  line-height: 30px;
+  color: #272727;
+  letter-spacing: 0.04em;
+  width: 170px;
+  height: 117px;
+  padding-top: 27px;
+  padding-bottom: 19px;
+  padding: 27px 19px 21px 23.3px;
+}
+
+@media (max-width: 980px) {
+  .table-scroll {
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 980px) {
+  .schedule-table,
+  .traning-table {
+    white-space: nowrap;
+  }
+}
+
+.schedule-thead,
+.traning-thead {
+  font-size: 18px;
+  margin: 8px 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #57b07b;
+}
+
+.schedule-table td:nth-of-type(1),
+.traning-table td:nth-of-type(1) {
+  background-color: #f1f8ec;
+}
+
+.schedule-table td:nth-of-type(2),
+.traning-table td:nth-of-type(2) {
+  width: 300px;
+}
+
+.schedule-table a,
+.traning-table a,
+.traning-description_top a {
+  text-decoration: underline;
+  color: #237ee9;
+}
+
+/* ------------------ */
+/* schedule */
+/* ------------------ */
+
+.schedule-ttl {
+  margin-bottom: 56px;
+}
+
+.schedule_container {
+  padding: 110px 40px;
+  @include mq('sp'){
+    padding-left: 20px;
+  }
+}
+
+.schedule-table td:nth-of-type(1),
+td:nth-of-type(4) {
+  text-align: center;
+}
+
+.schedule-table td:nth-of-type(2),
+td:nth-of-type(3) {
+  text-align: left;
+}
+
+/* ------------------ */
+/* traning */
+/* ------------------ */
+
+.traning_container {
+  background-color: #fffaec;
+  padding: 110px 40px;
+  @include mq('sp'){
+    padding-left: 20px;
+  }
+}
+
+.traning-table td:nth-of-type(1) {
+  text-align: center;
+}
+.traning-table td:nth-of-type(2),
+td:nth-of-type(3),
+td:nth-of-type(4),
+td:nth-of-type(5) {
+  text-align: left;
+}
+
+.traning-table td {
+  background-color: #ffffff;
+}
+
+.traning-description_top {
+  margin-bottom: 16px;
+}
+
+.traning-description_bottom {
+  margin-top: 16px;
+  padding-bottom: 110px;
+}
