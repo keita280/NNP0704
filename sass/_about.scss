@@ -264,6 +264,11 @@ table {
       border-radius: 36px 0 0 36px;
     }
   }
+  @include mq('sp'){
+    > img {
+      border-radius: 34px 34px 0 0;
+    }
+  }
 }
 
 .wwd_media_body {
@@ -431,11 +436,10 @@ table {
 }
 
 .pdf-link {
-  border-bottom: 1px solid #000;
+  text-decoration: underline;
   position: relative;
   display: inline-block;
   &:after {
-    position: absolute;
     display: inline-block;
     content: "";
     background-image: url(../img/pdf_icon.webp);
@@ -444,8 +448,8 @@ table {
     background-size: 25px auto;
     width: 25px;
     height: 26.5px;
-    top: -2px;
-    right:-30px;
     z-index: 10;
+    margin-left: 5px;
+    vertical-align: middle;
   }
 }
