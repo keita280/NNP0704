@@ -1,0 +1,125 @@
+/* ------------------ */
+/* pass */
+/* ------------------ */
+
+.pass_container {
+  width: 100%;
+  text-align: center;
+  padding: 80px 40px 110px 40px;
+  @include mq('sp'){
+    padding: 60px 20px 56.5px 20px;
+  }
+}
+
+.pass-content-description {
+  font-size: 18px;
+  line-height: 27px;
+  width: 764px;
+  height: 162px;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+
+@media (max-width: 980px) {
+  .pass-content-description {
+    width: 333px;
+    height: 270px;
+    left: 20px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+.pass-content-description a {
+  text-decoration: none;
+  color: #237ee9;
+}
+
+.document-list {
+  max-width: 764px;
+  text-align: left;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (max-width: 980px) {
+  .document-list {
+    max-width: 100%;
+  }
+}
+
+.document-item {
+  position: relative;
+  width: 764px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+@media (max-width: 980px) {
+  .document-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+}
+
+.document-item::before {
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #e9e9e9;
+  width: 100%;
+  bottom: 0px;
+}
+
+.document-title {
+  @include mq('md'){
+    width: 20.680%;
+  }
+  display: block;
+  height: 24px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #57b07b;
+  margin-right: 30px;
+}
+
+@media (max-width: 980px) {
+  .document-title {
+    margin-bottom: 5.75px;
+  }
+}
+
+.document-title a {
+  width: 199px;
+  height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  // text-decoration: underline;
+}
+
+// a[href$='.pdf'] {
+//   display: inline-block;
+//   padding-right: 20px;
+//   background: url(../../../img/pdf-2-16.png) no-repeat right center;
+// }
+
+.document-title-link {
+  display: inline-block;
+  &:after {
+    display: inline-block;
+    content: "";
+    background-image: url(../img/pdf_icon.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 25px auto;
+    width: 25px;
+    height: 26.5px;
+    z-index: 10;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+}
