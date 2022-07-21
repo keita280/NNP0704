@@ -335,6 +335,7 @@ body{
 main {
   @include mq('sp'){
     padding-top: 74.13px;
+    position: relative;
   }
 }
 
